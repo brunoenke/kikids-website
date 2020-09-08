@@ -1,0 +1,141 @@
+/* Vermelho         #D20528
+Vermelho Escuro  #612935
+Amarelo          #FFD500
+Marrom           #855D2B
+Azul             #03AFD1
+Azul Escuro      #124B7F 
+Cinza            #4C4C4E
+Branco           #F0F1F1 */
+
+
+.cadastroLogin{
+  /* color: #D20528; */
+  color: #124B7F;
+  font-size: 60px;
+}
+
+.titulo{
+  font-family: 'Roboto Slab', serif;
+  /* color: #D20528; */
+  color: #124B7F;
+}
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 400px !important;
+}
+
+.btn{
+  /* background-color: #7b1fa2;   */
+}
+
+.btn-light{
+  background-color: #F0F1F1;
+  border-color: #F0F1F1;
+  color: rgb(78, 78, 78);
+}
+
+h1{
+  
+  font-size: 70px;
+  text-shadow: 3px 3px rgb(216, 215, 215);
+  /* color: #D20528; */
+  color: rgb(93, 93, 94);
+}
+
+h2{
+  
+  color: rgb(93, 93, 94);
+}
+
+h3{
+  
+  color: rgb(93, 93, 94);
+}
+
+h4{
+  
+  /* color:#D20528; */
+  color: rgb(93, 93, 94);
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  padding-top: 60px;
+  margin: 0;
+  display:flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  background: #7b1fa2;
+  color: #F0F1F1;
+  padding: 3em;
+  margin-top: auto;
+}
+
+.vermelho{background-color: #7b1fa2;}
+.branco{background-color:  #F0F1F1;}
+/* .azul{background-color:#03AFD1;} */
+.azul{background-color:#7b1fa2;}
+
+/* .textoAmarelo{color: #FFD500;} */
+.textoAmarelo{color: #F0F1F1;}
+.textoVermelho{color: #D20528;}
+.textoAzul{color: #03AFD1;}
+.textoBranco{color: #F0F1F1;}
+.textoCinza{color: rgb(93, 93, 94);}
+
+#navbar {
+  z-index: 100;
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.5rem 0.1rem 0.5rem;
+    border-radius: 6rem;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+  padding: 3% 2%;
+}
+
+/* .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+} */
